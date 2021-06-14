@@ -1,0 +1,28 @@
+.search-bar-cont {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+    
+    .search-bar {
+    height: 33px;
+    width: 50vw;
+    border-radius: 6px;
+    outline: none;
+    border: 1.5px solid gray;
+  }
+
+  .submit-but {
+    background-color: #3f3f41;
+    color: white;
+    border-radius: 20px;
+    margin-left: 20px;
+    width: 75px;
+    font-size: 16px;
+    outline: none;
+    border: 0;
+    &:hover {
+      cursor: pointer;
+      background-color: gray;
+    }
+  }
+}
